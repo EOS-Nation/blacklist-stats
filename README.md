@@ -1,18 +1,23 @@
-# Proxy Stats
+# Blacklist Stats
 
 ## Configure
 
 **.env**
 
 ```bash
-
+DFUSE_TOKEN="<TOKEN>"
 ```
 
-**voters.json**
+**blacklist.json**
 
 ```json
 [
-  "proxy2nation",
-  "proxy4nation"
+  "blacklistme"
 ]
+```
+
+## Start
+
+```bash
+ts-node index.ts
 ```
